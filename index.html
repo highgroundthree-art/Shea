@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Safer Cleaning for the People Who Care for Others | Shea</title>
+<meta name="description" content="Cleaning-supply safety for healthcare teams, daycares, home care providers and foster care homes. Clear guidance, safer choices, less risk for the people in your care.">
+<style>
+  :root{
+    --bg:#fbf8f3; --ink:#1f2a2e; --muted:#53636a; --card:#ffffff; --line:#e4ddd1;
+    --brand:#1f6f68; --brand-dark:#155550; --accent:#e8a33d; --soft:#e7f1ef; --warn:#fff3dc;
+  }
+  @media (prefers-color-scheme:dark){
+    :root{--bg:#10191b; --ink:#eaf1f0; --muted:#a6b8b9; --card:#17262a; --line:#27393d;
+      --brand:#58b5ab; --brand-dark:#7fd0c6; --accent:#f0b85a; --soft:#172d2c; --warn:#2b2414;}
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{margin:0;background:var(--bg);color:var(--ink);
+    font:17px/1.6 "Segoe UI",system-ui,-apple-system,Roboto,Helvetica,Arial,sans-serif}
+  a{color:var(--brand)}
+  .wrap{max-width:1080px;margin:0 auto;padding:0 20px}
+  header.top{position:sticky;top:0;background:color-mix(in srgb,var(--bg) 92%,transparent);
+    backdrop-filter:blur(8px);border-bottom:1px solid var(--line);z-index:10}
+  .nav{display:flex;align-items:center;justify-content:space-between;height:64px}
+  .logo{font-weight:800;font-size:1.25rem;letter-spacing:.02em;color:var(--brand);text-decoration:none}
+  .nav a.cta{display:none}
+  @media(min-width:720px){.nav a.cta{display:inline-block}}
+  .btn{display:inline-block;background:var(--brand);color:#fff;text-decoration:none;font-weight:700;
+    padding:14px 24px;border-radius:12px;border:2px solid var(--brand)}
+  .btn:hover{background:var(--brand-dark);border-color:var(--brand-dark)}
+  .btn.ghost{background:transparent;color:var(--brand)}
+  .btn.ghost:hover{background:var(--soft)}
+  .hero{padding:64px 0 48px}
+  .eyebrow{font-weight:700;color:var(--brand);text-transform:uppercase;letter-spacing:.12em;font-size:.8rem}
+  h1{font-size:clamp(2rem,5.2vw,3.4rem);line-height:1.1;margin:.4em 0;letter-spacing:-.01em}
+  .lead{font-size:1.2rem;color:var(--muted);max-width:640px}
+  .hero .actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:28px}
+  section{padding:56px 0}
+  section.alt{background:var(--soft)}
+  h2{font-size:clamp(1.5rem,3.4vw,2.2rem);line-height:1.2;margin:0 0 .5em}
+  .grid{display:grid;gap:20px}
+  @media(min-width:760px){.g2{grid-template-columns:1fr 1fr}.g3{grid-template-columns:repeat(3,1fr)}}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:24px}
+  .card h3{margin:.2em 0 .4em;font-size:1.15rem}
+  .card ul{margin:.5em 0 0;padding-left:1.2em}
+  .card li{margin:.35em 0}
+  .tag{display:inline-block;background:var(--soft);color:var(--brand-dark);font-weight:700;
+    font-size:.78rem;padding:4px 10px;border-radius:999px}
+  .alert{background:var(--warn);border-left:6px solid var(--accent);border-radius:12px;padding:18px 22px}
+  .steps{counter-reset:s;list-style:none;padding:0;margin:0;display:grid;gap:16px}
+  @media(min-width:760px){.steps{grid-template-columns:repeat(3,1fr)}}
+  .steps li{counter-increment:s;background:var(--card);border:1px solid var(--line);border-radius:16px;padding:22px}
+  .steps li::before{content:counter(s);display:inline-grid;place-items:center;width:34px;height:34px;
+    border-radius:50%;background:var(--brand);color:#fff;font-weight:800;margin-bottom:10px}
+  .rules{columns:1;gap:24px}
+  @media(min-width:760px){.rules{columns:2}}
+  .rules li{break-inside:avoid;margin-bottom:.6em}
+  .cta-band{background:var(--brand);color:#fff;border-radius:24px;padding:40px 28px;text-align:center}
+  .cta-band h2{color:#fff}
+  .cta-band .btn{background:#fff;color:var(--brand-dark);border-color:#fff}
+  .cta-band .btn:hover{background:var(--soft)}
+  form{display:grid;gap:14px;max-width:560px;margin:20px auto 0;text-align:left}
+  label{font-weight:600;font-size:.95rem}
+  input,select,textarea{width:100%;padding:12px 14px;border-radius:10px;border:1px solid var(--line);
+    font:inherit;background:var(--card);color:var(--ink)}
+  input:focus,select:focus,textarea:focus,a:focus,.btn:focus{outline:3px solid var(--accent);outline-offset:2px}
+  footer{padding:36px 0 56px;color:var(--muted);font-size:.9rem;border-top:1px solid var(--line)}
+  .fine{font-size:.85rem;color:var(--muted)}
+</style>
+</head>
+<body>
+
+<header class="top">
+  <div class="wrap nav">
+    <a class="logo" href="#top">Shea</a>
+    <a class="btn cta" href="#contact">Talk to us</a>
+  </div>
+</header>
+
+<main id="top">
+
+<section class="hero">
+  <div class="wrap">
+    <span class="eyebrow">Cleaning-supply safety</span>
+    <h1>Clean spaces shouldn't put the people you care for at risk.</h1>
+    <p class="lead">For healthcare teams, daycares, home care providers and foster homes: clear, practical guidance and safer product choices, so the products that keep a space clean aren't the ones that cause harm.</p>
+    <div class="actions">
+      <a class="btn" href="#contact">Get the free safety checklist</a>
+      <a class="btn ghost" href="#who">See how it fits your setting</a>
+    </div>
+  </div>
+</section>
+
+<section class="alt" id="why">
+  <div class="wrap">
+    <h2>Why cleaning-supply safety matters</h2>
+    <div class="grid g3">
+      <div class="card"><h3>Small bodies, bigger risk</h3><p>Young children and frail adults are more sensitive to fumes, spills and accidental swallowing than a healthy adult is.</p></div>
+      <div class="card"><h3>Mixing mistakes happen</h3><p>Some common products release dangerous gases when combined. Busy shifts and shared supply closets make mix-ups easy.</p></div>
+      <div class="card"><h3>Look-alike containers</h3><p>Decanted bottles, unlabeled sprays and colorful packaging can be mistaken for drinks or for each other.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="who">
+  <div class="wrap">
+    <h2>Built around how you actually work</h2>
+    <p class="lead" style="margin-bottom:28px">Every setting has different risks. Choose yours.</p>
+    <div class="grid g2">
+
+      <article class="card">
+        <span class="tag">Healthcare professionals</span>
+        <h3>Clinics, facilities and care teams</h3>
+        <ul>
+          <li>Keep disinfectant contact times and dilution instructions visible at the point of use.</li>
+          <li>Standardize products across units so staff aren't improvising.</li>
+          <li>Keep Safety Data Sheets (SDS) current and easy to find, and train new hires on them.</li>
+          <li>Protect patients with respiratory sensitivities by ventilating after strong-smelling products.</li>
+        </ul>
+      </article>
+
+      <article class="card">
+        <span class="tag">Daycares</span>
+        <h3>Centers and in-home child care</h3>
+        <ul>
+          <li>Store every product locked and out of sight and reach, never under a sink.</li>
+          <li>Clean when children are elsewhere, and let surfaces dry before they return.</li>
+          <li>Keep products in original containers with the original label.</li>
+          <li>Use the right product for the job: sanitize food surfaces, disinfect other surfaces, and follow the label for each.</li>
+        </ul>
+      </article>
+
+      <article class="card">
+        <span class="tag">Home care providers</span>
+        <h3>Caregivers working in clients' homes</h3>
+        <ul>
+          <li>Ask about allergies, asthma and sensitivities before you bring products into a home.</li>
+          <li>Don't switch products mid-task or "boost" one with another.</li>
+          <li>Check that products in a client's home are labeled, not expired and not stored near food or medicine.</li>
+          <li>Carry a small, labeled kit instead of a bag of mixed bottles.</li>
+        </ul>
+      </article>
+
+      <article class="card">
+        <span class="tag">Foster care providers</span>
+        <h3>Foster parents and placement support</h3>
+        <ul>
+          <li>Walk through the home with each new placement in mind: a child's age changes what is within reach.</li>
+          <li>Lock up cleaning products, laundry pods, dishwasher packs and air fresheners.</li>
+          <li>Plan for children who arrive with little warning, with a ready, child-safe storage spot.</li>
+          <li>Post the Poison Help number where every caregiver can see it.</li>
+        </ul>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<section class="alt" id="rules">
+  <div class="wrap">
+    <h2>Seven rules that prevent most cleaning-product accidents</h2>
+    <ol class="rules">
+      <li><strong>Never mix products.</strong> In particular, never combine bleach with ammonia or with acidic products such as some toilet-bowl and rust cleaners.</li>
+      <li><strong>Keep the original container and label.</strong> If you must transfer a product, label the new container clearly.</li>
+      <li><strong>Lock it up.</strong> Out of sight and out of reach is not enough; locked is better.</li>
+      <li><strong>Read the label every time.</strong> Dilution, contact time and ventilation notes matter.</li>
+      <li><strong>Ventilate.</strong> Open a window or run a fan, and keep vulnerable people out of the area.</li>
+      <li><strong>Wear the right protection.</strong> Gloves and eye protection when the label says so.</li>
+      <li><strong>Know your emergency step.</strong> In the U.S., Poison Help is <strong>1-800-222-1222</strong>. For a medical emergency, call 911.</li>
+    </ol>
+    <p class="alert" style="margin-top:24px"><strong>Important:</strong> This page is general safety education, not medical advice or a substitute for product labels, Safety Data Sheets, your facility's policies or licensing rules.</p>
+  </div>
+</section>
+
+<section id="how">
+  <div class="wrap">
+    <h2>How we help</h2>
+    <ol class="steps">
+      <li><h3>Review</h3><p>We look at what you use today, where it's stored and who is around it.</p></li>
+      <li><h3>Recommend</h3><p>[Describe your offering here: product line, training, audit, or consulting.]</p></li>
+      <li><h3>Train &amp; support</h3><p>[Describe training materials, posters, checklists or follow-up you provide.]</p></li>
+    </ol>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="wrap">
+    <div class="cta-band">
+      <h2>Get the free cleaning-supply safety checklist</h2>
+      <p>Tell us about your setting and we'll send the right checklist.</p>
+      <form action="mailto:hello@example.com" method="post" enctype="text/plain">
+        <div><label for="name">Name</label><input id="name" name="name" autocomplete="name" required></div>
+        <div><label for="email">Email</label><input id="email" name="email" type="email" autocomplete="email" required></div>
+        <div><label for="setting">Your setting</label>
+          <select id="setting" name="setting" required>
+            <option value="">Choose one</option>
+            <option>Healthcare</option>
+            <option>Daycare</option>
+            <option>Home care</option>
+            <option>Foster care</option>
+          </select></div>
+        <div><label for="msg">Anything you want us to know? (optional)</label><textarea id="msg" name="message" rows="3"></textarea></div>
+        <button class="btn" type="submit">Send me the checklist</button>
+      </form>
+      <p class="fine" style="color:#d9ece9;margin-top:16px">Please don't include names or details of the people in your care.</p>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <p>&copy; <span id="yr">2026</span> Shea. All rights reserved. [Business name, address and contact details.]</p>
+    <p class="fine">Poison Help: 1-800-222-1222 (U.S.). Emergency: 911. Always follow product labels and your local regulations.</p>
+  </div>
+</footer>
+<script>document.getElementById('yr').textContent=new Date().getFullYear();</script>
+</body>
+</html>
